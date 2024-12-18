@@ -32,7 +32,7 @@ require('lazy').setup({
   require 'Saman.plugins.treesitter',
 
   -- System & Utility Plugins
-  require 'Saman.plugins.health',
+  --require 'Saman.plugins.health',
   require 'Saman.plugins.none-ls',
 }, {
   ui = {
