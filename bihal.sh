@@ -9,7 +9,7 @@ sudo apt update && sudo apt install -y neovim git curl
 
 # Clone the configuration repository from GitHub
 echo "Cloning Neovim configuration from GitHub..."
-git clone https://github.com/SamanKhalife/Bi-Hali.git /tmp/Bi-Hali
+git clone https://github.com/SamanKhalife/bihal.git /tmp/Bi-Hali
 
 # Check if the destination directory exists
 if [ ! -d "$DEST_DIR" ]; then
